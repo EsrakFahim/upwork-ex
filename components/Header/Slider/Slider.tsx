@@ -7,16 +7,16 @@ import 'swiper/css';
 import { useState } from 'react';
 
 const slides = [
-      'https://wallpaperaccess.com/full/1562342.jpg',
-      'https://wallpaperaccess.com/full/384787.jpg',
-      'https://wallpaperaccess.com/full/1562336.jpg',
+      "/1.jpg",
+      "/2.jpg",
+      "/3.jpg",
 ];
 
 export default function CustomSlider() {
       const [activeIndex, setActiveIndex] = useState(0);
 
       return (
-            <div className="relative w-full h-[450px] overflow-hidden">
+            <div className="relative w-full h-[550px] overflow-hidden">
                   <Swiper
                         modules={[Autoplay]}
                         loop
